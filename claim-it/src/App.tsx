@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import SocialTasks from './SocialTasks'; // مطمئن شوید مسیر درست است
 import { useAccount } from 'wagmi'; // برای چک کردن اتصال کیف پول
 

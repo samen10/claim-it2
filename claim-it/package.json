@@ -13,6 +13,8 @@
     "@farcaster/miniapp-sdk": "latest",
     "@farcaster/miniapp-wagmi-connector": "latest",
     "@tanstack/react-query": "5.45.1",
+    "@vercel/node": "^5.5.13",
+    "dotenv": "^17.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "viem": "latest",

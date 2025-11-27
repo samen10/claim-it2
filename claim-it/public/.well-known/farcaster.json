@@ -1,1 +1,20 @@
-{}
+{
+  "frame": {
+    "name": "claim-it",
+    "version": "1",
+    "iconUrl": "https://claim-it2.vercel.app/icon.png",
+    "homeUrl": "https://claim-it2.vercel.app",
+    "imageUrl": "https://claim-it2.vercel.app/image.png",
+    "splashImageUrl": "https://claim-it2.vercel.app/splash.png",
+    "splashBackgroundColor": "#6200EA",
+    "webhookUrl": "https://claim-it2.vercel.app/api/webhook",
+    "subtitle": "claim-it-for-test",
+    "description": "claim-it-for-test",
+    "primaryCategory": "art-creativity"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjE1MDc2LCJ0eXBlIjoiYXV0aCIsImtleSI6IjB4MGQyM2UzYjMxMzAzMzdjMTFkZjYxNjdmYWM4RWUwM0QyM0ZBRDg4YyJ9",
+    "payload": "eyJkb21haW4iOiJjbGFpbS1pdDIudmVyY2VsLmFwcCJ9",
+    "signature": "gExU9luApaZZlKcWkv3hFo5e6SpY+JpbnuISp90E7M9U1U5ai8YMFGFnIAxzJmLLgjbHFYDpWOrE42isn08d7xs="
+  }
+}

@@ -17,17 +17,17 @@ function App() {
   const [canMint, setCanMint] = useState(false);
   const { isConnected } = useAccount();
 
-  // if (!isConnected) {
-  //   return (
-  //     <div className="min-h-screen flex items-center justify-center bg-gray-950 p-4">
-  //       <div className="p-8 bg-red-900/50 border border-red-700 rounded-xl text-center text-white">
-  //           <h2 className="text-xl font-bold mb-2">اتصال الزامی است!</h2>
-  //           <p>لطفاً برای استفاده از مینی‌اپ، کیف پول خود را به شبکه Base متصل کنید.</p>
-  //           {/* در اینجا باید دکمه Connect Wallet از Wagmi/RainbowKit/etc قرار گیرد */}
-  //       </div>
-  //     </div>
-  //   );
-  // }
+  if (!isConnected) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-950 p-4">
+        <div className="p-8 bg-red-900/50 border border-red-700 rounded-xl text-center text-white">
+            <h2 className="text-xl font-bold mb-2">اتصال الزامی است!</h2>
+            <p>لطفاً برای استفاده از مینی‌اپ، کیف پول خود را به شبکه Base متصل کنید.</p>
+            {/* در اینجا باید دکمه Connect Wallet از Wagmi/RainbowKit/etc قرار گیرد */}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-blue-300 p-4 font-sans">

@@ -5,8 +5,8 @@ import { Heart, Repeat, UserPlus, CheckCircle, RefreshCw } from 'lucide-react';
 // -----------------------------------------------------------------
 // ⚠️ مقادیر ثابت: این‌ها را با مقادیر واقعی کست و یوزر هدف جایگزین کنید
 // -----------------------------------------------------------------
-const TARGET_CAST_HASH = "0x4b787590d6...502"; // 👈 هش کست مورد نظر (از Basescan یا Warpcast)
-const TARGET_USER_FID = 123456;                 // 👈 FID کاربری که باید فالو شود (مثلاً 3 برای جسی پولار)
+const TARGET_CAST_HASH = "0x7d607440affe7b75218db60b057c3dafa4f6584e"; // 👈 هش کست مورد نظر (از Basescan یا Warpcast)
+const TARGET_USER_FID = 15076;                 // 👈 FID کاربری که باید فالو شود (مثلاً 3 برای جسی پولار)
 const TARGET_CAST_URL = `https://warpcast.com/~/casts/${TARGET_CAST_HASH}`; 
 const TARGET_PROFILE_URL = `https://warpcast.com/~/profiles/${TARGET_USER_FID}`; 
 // -----------------------------------------------------------------
